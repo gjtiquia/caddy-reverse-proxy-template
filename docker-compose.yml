@@ -1,0 +1,14 @@
+services:
+  caddy:
+    container_name: caddy-reverse-proxy
+    image: caddy:2
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data     # SSL certificates and other persistent data
+      - caddy_config:/config # Caddy configuration cache
+
+volumes:
+  caddy_data:
+  caddy_config:

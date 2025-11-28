@@ -1,0 +1,7 @@
+your-domain.com {
+    reverse_proxy :3000
+}
+
+your-other-domain.com {
+    reverse_proxy :8000
+}

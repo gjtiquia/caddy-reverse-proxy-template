@@ -17,7 +17,7 @@ designed to be as simple and minimal as possible, and only require `docker` as t
 
 ### installed software
 
-- docker
+- [docker](https://docs.docker.com/engine/install/)
 
 ### DNS record setup
 

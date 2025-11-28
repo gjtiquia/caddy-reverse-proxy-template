@@ -1,6 +1,6 @@
 # caddy reverse proxy template
 
-tested for ubuntu/debian VPS servers
+a template for a self-contained caddy reverse proxy setup, tested for ubuntu/debian VPS 
 
 designed so that it is "self-contained" and for "seperation of concerns", 
 ie. other repos does not need to know about the reverse proxy, and repos dont know about each other,
